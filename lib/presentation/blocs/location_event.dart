@@ -1,5 +1,3 @@
-// lib/presentation/blocs/location_event.dart
-
 part of 'location_bloc.dart';
 
 abstract class LocationEvent extends Equatable {

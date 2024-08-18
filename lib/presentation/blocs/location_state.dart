@@ -1,5 +1,3 @@
-// lib/presentation/blocs/location_state.dart
-
 part of 'location_bloc.dart';
 
 abstract class LocationState extends Equatable {

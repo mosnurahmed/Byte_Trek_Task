@@ -74,7 +74,7 @@ class _LocationDetailPageState extends State<LocationDetailPage> {
                           return Icon(
                             Icons.error,
                             size: 100,
-                          ); // Show error icon if image fails to load
+                          );
                         },
                       ),
                     SizedBox(height: 16),
@@ -96,7 +96,6 @@ class _LocationDetailPageState extends State<LocationDetailPage> {
                     ),
                     SizedBox(height: 8),
                     Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Icon(Icons.home),
                         SizedBox(width: 8),
